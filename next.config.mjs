@@ -3,9 +3,10 @@ const isProd = process.env.NODE_ENV === "production";
 export const baseUrl = isProd ? "/rent_car_business" : "";
 
 const nextConfig = {
+  distDir: "dist",
+  assetPrefix: baseUrl,
   basePath: baseUrl,
   output: "export",
-  distDir: "dist",
   images: {
     unoptimized: true,
   },
