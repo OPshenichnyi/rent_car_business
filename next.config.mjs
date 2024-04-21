@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === "production";
+export const baseUrl = isProd ? "/rent_car_business" : "";
 
 const nextConfig = {
-  basePath: isProd ? "/rent_car_business" : "",
-  assetPrefix: isProd ? "/rent_car_business" : "",
+  basePath: baseUrl,
   output: "export",
   distDir: "dist",
   images: {
