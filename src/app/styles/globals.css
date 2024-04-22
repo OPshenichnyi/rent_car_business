@@ -1,7 +1,17 @@
 @import url('./normalise.css');
 @import url('./variables.css');
+@import url('./fonts.css');
 
 body {
   background-color: var(--bg-color-white, #fff);
   color: var(--text-color-black, black);
+  font-family: 'Geomanist', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
 }

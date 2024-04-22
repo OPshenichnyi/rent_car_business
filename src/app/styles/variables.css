@@ -4,4 +4,6 @@
   --bg-color-blue: #3083FF;
   --text-color-black: #1D1E21;
   --text-color-grey: #ACAEB4;
+  --logo-color:  #1d1e21;
+  --bg-grey-section: linear-gradient(315deg, #f1f3fc 0%, #f7f7fb 100%);
 }

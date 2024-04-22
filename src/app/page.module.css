@@ -1,0 +1,43 @@
+.root {
+  display: flex;
+  gap: 31px;
+  width: 1250px;
+  padding: 78px 0 53px 140px;
+  margin: auto;
+  background: var(--bg-grey-section);
+  position: relative;
+}
+.wrap_title {
+  width: 529px;
+  padding-top: 60px;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+  color: #1d1e21;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.span_title {
+  color: #3083ff;
+  position: relative;
+  padding-left: 10px;
+}
+.svg {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.wrap_title > p {
+  max-width: 470px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.44;
+  letter-spacing: 0.01em;
+  color: #929395;
+}

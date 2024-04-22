@@ -1,0 +1,23 @@
+.container {
+  width: 1000px;
+  height: 44px;
+  background-color: var(--bg-color-white);
+  position: absolute;
+  bottom: -43px;
+  left: 250px;
+  padding: 21px 32px;
+  border-radius: 16px;
+  border: 1px solid black;
+}
+
+.wrap_filed {
+  display: flex;
+  flex-flow: column;
+}
+
+.label {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  color: #1d1e21;
+}
