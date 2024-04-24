@@ -1,0 +1,50 @@
+[
+    {
+    "id": "1",
+    "modelCar": "Red Mazda 6 - Elite Estate",
+    "url": "/img/Mazda_red.png",
+    "rate": 4.8,
+    "review": 100,
+    "quantityPass": 2,
+    "typeTransmission": "manual",
+    "typeCondition": "Air Conditioning",
+    "quantityDoor": 2,
+    "price": 1.800
+},
+{
+    "id": "2",
+    "modelCar": "Black Mazda 6 - Elite Estate",
+    "url": "/img/Black_mazda.png",
+    "rate": 5.0,
+    "review": 120,
+    "quantityPass": 2,
+    "typeTransmission": "auto",
+    "typeCondition": "Climat Conditioning",
+    "quantityDoor": 2,
+    "price": 2.200
+},
+{
+    "id": "3",
+    "modelCar": "Blue Mazda 6 - Elite Estate",
+    "url": "/img/small_blue_mazda.png",
+    "rate": 4.2,
+    "review": 80,
+    "quantityPass": 5,
+    "typeTransmission": "manual",
+    "typeCondition": "Air Conditioning",
+    "quantityDoor": 5,
+    "price": 1.600
+},
+{
+    "id": "4",
+    "modelCar": "Grey Mazda 6 - Elite Estate",
+    "url": "/img/Grey_mazda.png",
+    "rate": 4.6,
+    "review": 99,
+    "quantityPass": 5,
+    "typeTransmission": "manual",
+    "typeCondition": "Air Conditioning",
+    "quantityDoor": 5,
+    "price": 1.700
+}
+]

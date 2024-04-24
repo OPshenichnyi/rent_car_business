@@ -1,23 +1,49 @@
-.container {
-  width: 1000px;
-  height: 44px;
-  background-color: var(--bg-color-white);
-  position: absolute;
-  bottom: -43px;
-  left: 250px;
-  padding: 21px 32px;
-  border-radius: 16px;
-  border: 1px solid black;
+.wrap_input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
 .wrap_filed {
   display: flex;
   flex-flow: column;
 }
 
 .label {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.04em;
   color: #1d1e21;
+  margin-bottom: 12px;
+}
+
+.input {
+  border: none;
+  width: 170px;
+  font-weight: 300;
+  font-size: 18px;
+  color: #bfbfbf;
+}
+
+.input:focus {
+  border: none;
+  outline: none;
+}
+
+.btn {
+  all: unset; /* Скидає всі базові стилі, включаючи відступи, рамки, фон тощо */
+  cursor: pointer; /* Повторне застосування стилю курсора для покращення взаємодії з користувачем */
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+  color: var(--bg-color-white);
+  width: 62px;
+  border-radius: 14px;
+  padding: 22px 60px;
+  background-color: var(--bg-color-blue);
+  border: none;
+}
+
+.data_list {
+  width: 170px;
+  background-color: red;
 }
