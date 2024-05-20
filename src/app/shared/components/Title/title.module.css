@@ -1,0 +1,18 @@
+.two {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.24;
+  letter-spacing: 0.01em;
+
+  color: #1d1e21;
+}
+.title_section {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+
+  color: #acaeb4;
+}

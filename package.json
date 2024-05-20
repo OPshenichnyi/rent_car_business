@@ -9,7 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "modern-normalize": "^2.0.0",
     "next": "14.2.2",
+    "next-intl": "^3.12.0",
     "react": "^18",
     "react-dom": "^18",
     "react-hook-form": "^7.51.3"

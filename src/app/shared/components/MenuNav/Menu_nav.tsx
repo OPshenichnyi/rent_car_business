@@ -1,5 +1,6 @@
 import style from './menu_nav.module.css';
 import Link from 'next/link';
+
 const Menu_nav = () => {
   return (
     <nav>

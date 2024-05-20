@@ -9,7 +9,7 @@
 }
 
 .label {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 14px;
   letter-spacing: 0.04em;
   color: #1d1e21;
@@ -19,7 +19,7 @@
 .input {
   border: none;
   width: 170px;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
   color: #bfbfbf;
 }

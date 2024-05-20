@@ -9,7 +9,7 @@
     "typeTransmission": "manual",
     "typeCondition": "Air Conditioning",
     "quantityDoor": 2,
-    "price": 1.800
+    "price": 1.888
 },
 {
     "id": "2",
@@ -21,7 +21,7 @@
     "typeTransmission": "auto",
     "typeCondition": "Climat Conditioning",
     "quantityDoor": 2,
-    "price": 2.200
+    "price": 2.222
 },
 {
     "id": "3",
@@ -33,7 +33,7 @@
     "typeTransmission": "manual",
     "typeCondition": "Air Conditioning",
     "quantityDoor": 5,
-    "price": 1.600
+    "price": 1.655
 },
 {
     "id": "4",
@@ -45,6 +45,6 @@
     "typeTransmission": "manual",
     "typeCondition": "Air Conditioning",
     "quantityDoor": 5,
-    "price": 1.700
+    "price": 1.721
 }
 ]

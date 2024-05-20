@@ -7,13 +7,3 @@
   justify-content: space-between;
   background: var(--bg-grey-section);
 }
-
-.logo_title {
-  font-weight: 500;
-  font-size: 26px;
-  color: var(--logo-color);
-}
-
-.txt {
-  color: var(--bg-color-blue);
-}

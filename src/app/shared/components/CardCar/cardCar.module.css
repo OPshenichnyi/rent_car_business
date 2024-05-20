@@ -19,26 +19,27 @@
 
 .wrap_rate {
   display: flex;
+  align-items: center;
   gap: 4px;
   margin-bottom: 16px;
 }
 
 .rate {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   letter-spacing: 0em;
   color: #1d1e21;
 }
 
 .review {
-  font-weight: 300;
+  font-weight: 400;
   font-size: 12px;
   letter-spacing: 0em;
   color: var(--text-color-grey);
 }
 
 .title_card {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   letter-spacing: 0em;
   color: #1d1e21;
@@ -56,7 +57,8 @@
 .descript_item {
   display: flex;
   justify-items: baseline;
-  font-weight: 300;
+  align-items: center;
+  font-weight: 400;
   font-size: 12px;
   letter-spacing: 0em;
   color: var(--text-color-grey);
@@ -70,7 +72,7 @@
 }
 
 .price_title {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   letter-spacing: 0em;
   color: #1d1e21;
@@ -88,7 +90,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   letter-spacing: 0em;
   text-align: right;

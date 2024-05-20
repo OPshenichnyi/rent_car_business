@@ -16,6 +16,7 @@
   margin: auto;
   padding: 12px 12px 12px 32px;
   border-radius: 16px;
+  box-shadow: 0 12px 24px 0 rgba(169, 169, 173, 0.09);
 }
 .wrap_title {
   width: 529px;
@@ -23,7 +24,7 @@
 }
 
 .title {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 64px;
   line-height: 1.1;
   letter-spacing: 0.01em;
@@ -53,36 +54,20 @@
 }
 
 .popular_section {
-  width: 1250px;
-  margin: auto;
+  /* width: 1250px;
+  margin: auto; */
   padding: 132px 70px;
   text-align: center;
 }
-
-.popular_descriptio {
-  margin-bottom: 16px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.1;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  text-align: center;
-  color: #acaeb4;
-}
-
-.popular_title {
+.wrap_title_section {
   margin-bottom: 54px;
-  font-weight: 500;
-  font-size: 32px;
-  line-height: 1.24;
-  letter-spacing: 0.01em;
-  text-align: center;
-  color: #1d1e21;
 }
+
 .wrap_card {
   display: flex;
   margin-bottom: 54px;
-  justify-content: space-around;
+  gap: 24px;
+  justify-content: center;
 }
 .popular_btn {
   all: unset;
@@ -94,4 +79,39 @@
 
 .popular_btn_svg {
   margin-left: 14px;
+}
+
+.test {
+  margin-bottom: 64px;
+}
+.why_section {
+  width: 1250px;
+  margin: auto;
+  padding: 90px 70px;
+  background: linear-gradient(270deg, #fafafa 0%, #fafafa 100%);
+}
+
+.wrap_section_why {
+  position: relative;
+  display: flex;
+  column-gap: 80px;
+  align-items: center;
+}
+.wrap_img_why {
+  position: absolute;
+  left: 10px;
+  top: -90px;
+  width: 636px;
+  height: 458px;
+  background-image: url('/img/mapCity.png');
+}
+.img_why {
+  z-index: 1;
+}
+.container_why_descript {
+  max-width: 433px;
+}
+
+.wrap_why_title {
+  margin-bottom: 32px;
 }

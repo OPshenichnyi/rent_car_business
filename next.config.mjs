@@ -1,15 +1,18 @@
+import createNextIntlPlugin from 'next-intl/plugin';
+
+const withNextIntl = createNextIntlPlugin();
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === "production";
-export const baseUrl = isProd ? "/rent_car_business" : "";
+const isProd = process.env.NODE_ENV === 'production';
+export const baseUrl = isProd ? '/rent_car_business' : '';
 
 const nextConfig = {
-  distDir: "dist",
+  distDir: 'dist',
   assetPrefix: baseUrl,
   basePath: baseUrl,
-  output: "export",
+  // output: 'export',
   images: {
     unoptimized: true,
   },
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);

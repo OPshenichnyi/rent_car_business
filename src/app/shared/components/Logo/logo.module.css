@@ -1,0 +1,8 @@
+.logo_title {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.txt {
+  color: var(--bg-color-blue);
+}
