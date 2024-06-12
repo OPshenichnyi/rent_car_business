@@ -1,0 +1,72 @@
+.container_form {
+  width: 522px;
+  height: 681px;
+  padding: 0 64px;
+}
+.wrap_title_form {
+  margin-bottom: 64px;
+}
+.title_login {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 0.9;
+}
+
+.title_descript {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.input_field {
+  border: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 2.25;
+  color: rgba(0, 0, 0, 0.6);
+}
+.form_input > div:first-child {
+  margin-bottom: 28px;
+}
+
+.wrap_field {
+  width: 348px;
+  border-bottom: 1px solid grey;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contain_button {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 56px 0;
+}
+.link_recover {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 2.11765;
+  color: #3083ff;
+}
+.link_recover:hover {
+  color: #0c62b1;
+}
+.btn_submit {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 1.66;
+  padding: 10px 31px;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background: #3083ff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn_submit:hover {
+  background: #0c62b1;
+}

@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import './styles/globals.css';
 import Header from '../shared/components/header/Header';
 import Footer from '../shared/components/Footer/Footer';
+import Modal from '../shared/components/Modal/Modal';
 
 export const metadata: Metadata = {
   title: 'Rent Car for Buisness',
@@ -23,8 +24,9 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
-
         <Footer />
+        {/* Added an HTML element for rendering a modal window */}
+        <div id="modal-root"></div>
       </body>
     </html>
   );

@@ -1,11 +1,21 @@
-import Link from 'next/link';
+'use client';
 import style from './login.module.css';
+import Modal from '../Modal/Modal';
+import { useState } from 'react';
+import LoginForm from '../AuthForm/LoginForms/LoginForm';
+
 const Login = () => {
+  const [showModal, setShowModal] = useState(false);
   return (
     <div>
-      <Link className={style.login} href="/login">
+      <span className={style.login} onClick={() => setShowModal(true)}>
         Login
-      </Link>
+      </span>
+      {showModal && (
+        <Modal onClose={() => setShowModal(false)}>
+          <LoginForm />
+        </Modal>
+      )}
     </div>
   );
 };

@@ -1,8 +1,10 @@
 'use client';
 import style from './switchLang.module.css';
 import { useRouter } from 'next/navigation';
-import { ChangeEvent, useTransition } from 'react';
+import React, { useState, useTransition } from 'react';
 import { useLocale } from 'next-intl';
+import UaFlags from '../icons/UaFlags';
+import EnFlags from '../icons/EnFlags';
 // SwitchLang component for changing the website's language
 const SwitchLang = () => {
   // useTransition for optimizing state updates, reducing impact on performance
@@ -13,24 +15,31 @@ const SwitchLang = () => {
 
   // Getting the current locale
   const localActive = useLocale();
+  const [lang, setLang] = useState(localActive);
 
-  // Event handler for language change
-  const onSelectLang = (e: ChangeEvent<HTMLSelectElement>) => {
-    const nextLocale = e.target.value; // Reading the new language from the select element
-    router.replace(`/${nextLocale}`); // Change the URL to display the new language without reloading the page
+  const changeLang = (e: React.MouseEvent<HTMLDivElement>) => {
+    const local = e.currentTarget.textContent?.trim().toLowerCase();
+    startTransition(() => {
+      setLang(`${local}`);
+    });
+
+    router.replace(`/${local}`);
   };
 
   return (
-    <div>
-      <select
-        className={style.select}
-        defaultValue={localActive} // Setting the current language as the default value
-        onChange={onSelectLang} // Handling the language change
-        disabled={isPending} // Disabling the selector during loading
-      >
-        <option value="en">EN</option>
-        <option value="ua">UA</option>
-      </select>
+    <div className={style.wrap}>
+      <div className={style.wrap_flag}>
+        {lang === 'en' ? <EnFlags /> : <UaFlags />}
+      </div>
+      <div className={style.wrap_lang}>
+        <div onClick={changeLang} className={style.container_lang_select}>
+          <span>EN</span>
+        </div>
+        <div className={style.line}></div>
+        <div onClick={changeLang} className={style.container_lang_select}>
+          <span>UA</span>
+        </div>
+      </div>
     </div>
   );
 };

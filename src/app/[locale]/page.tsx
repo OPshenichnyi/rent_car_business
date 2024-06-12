@@ -9,25 +9,25 @@ import LineDownWords from '../shared/components/icons/LineDownWords';
 import { useTranslations } from 'next-intl';
 import TitleTwo from '../shared/components/Title/TitleTwo';
 import WhyList from '../shared/components/WhyList/WhyList';
+import Modal from '../shared/components/Modal/Modal';
 
 export default function Home() {
   const t = useTranslations('Index');
+  const m = useTranslations('Popular');
+  const why = useTranslations('why_choose');
   return (
     <main className={styles.main}>
       <div className={styles.root}>
         <div className={styles.wrap_title}>
           <h1 className={styles.title}>
-            {t('title')}
+            {t('Hero_title')}
             <span className={styles.span_title}>
               Easy
               <LineDownWords className={styles.svg} />
             </span>
-            {t('subTitle')}
+            {t('Hero_subTitle')}
           </h1>
-          <p>
-            Get a car wherever and whenever you need it with your iOS or Android
-            device.
-          </p>
+          <p>{t('SubTitle')}</p>
         </div>
         <Image
           src="/img/Blue_Mazda.png"
@@ -42,8 +42,8 @@ export default function Home() {
       <section className={(global.section, styles.popular_section)}>
         <div className={styles.wrap_title_section}>
           <TitleTwo
-            titleSection={'Popular rental deals'}
-            title={'Most popular cars rental deals'}
+            titleSection={m('descript_section')}
+            title={m('Title_section')}
           />
         </div>
 
@@ -57,7 +57,7 @@ export default function Home() {
           })}
         </ul>
         <button className={styles.popular_btn}>
-          Show All Vehicles
+          {m('Show_all')}
           <Arrow className={styles.popular_btn_svg} />
         </button>
       </section>
@@ -75,8 +75,8 @@ export default function Home() {
           <div className={styles.container_why_descript}>
             <div className={styles.wrap_why_title}>
               <TitleTwo
-                titleSection={'Why choose us'}
-                title={'We offer the best experience with our rental deals'}
+                titleSection={why('descript_section')}
+                title={why('Title_section')}
               />
             </div>
             <WhyList />

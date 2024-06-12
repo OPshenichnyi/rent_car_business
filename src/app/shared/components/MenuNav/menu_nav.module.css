@@ -1,6 +1,7 @@
 .list {
   display: flex;
   gap: 32px;
+  width: 410px;
 }
 
 .link {

@@ -1,6 +1,30 @@
 {
   "Index": {
-    "title": "Find, book, and rental car in",
-    "subTitle": "steps."
+    "Hero_title": "Manage your car business",
+    "Hero_subTitle": "with us.",
+    "SubTitle": "Manage your fleet easily and efficiently with our innovative CRM platform."
+  },
+  "Menu-nav": {
+    "About_crm": "How it work?",
+    "Rent_car": "For drivers",
+    "Rent_out_car": "For car owners"
+  },
+  "Popular": {
+    "descript_section": "POPULAR RENTAL DEALS",
+    "Title_section": "Most popular cars rental deals",
+    "Show_all": "Show All Vehicles"
+  },
+  "why_choose":{
+    "descript_section": "WHY CHOOSE US",
+    "Title_section": "We offer the best platform for managing your car business ",
+    "price": "Best price guaranteed",
+    "price_descript": "Find a lower price? We’ll refund you 100% of the difference",
+    "Driver_dashboard": "Driver Dashboard",
+    "Driver_descript": "Allows for quick tracking and receiving notifications about important events",
+    "Owners_dashboard": "My Fleet Dashboard",
+    "Owners_descript": "Specialized dashboard for vehicle owners provides the ability to control all aspects of the business",
+    "Access_24": "Access 24/7",
+    "Access_descript": "Regardless of the time of day, you can always access our platform and utilize all its features."
+    
   }
 }

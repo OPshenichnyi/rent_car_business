@@ -1,28 +1,26 @@
+import { useTranslations } from 'next-intl';
 import style from './menu_nav.module.css';
 import Link from 'next/link';
 
 const Menu_nav = () => {
+  const t = useTranslations('Menu-nav');
+
   return (
     <nav>
       <ul className={style.list}>
         <li>
           <Link className={style.link} href="/">
-            Become a renter
+            {t('About_crm')}
           </Link>
         </li>
         <li>
           <Link className={style.link} href="/">
-            Rental detals
+            {t('Rent_car')}
           </Link>
         </li>
         <li>
           <Link className={style.link} href="/">
-            How it work?
-          </Link>
-        </li>
-        <li>
-          <Link className={style.link} href="/">
-            Why choose us
+            {t('Rent_out_car')}
           </Link>
         </li>
       </ul>

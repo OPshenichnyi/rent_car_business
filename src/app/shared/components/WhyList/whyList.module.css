@@ -1,20 +1,22 @@
 .item_why {
   display: flex;
+  column-gap: 20px;
 }
 
 .item_why:not(:last-child) {
   margin-bottom: 24px;
 }
 .wrap_img {
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
+
   border-radius: 12px;
   box-shadow: 0 12px 32px 0 rgba(169, 169, 173, 0.16);
   background: #fff;
-  margin-right: 20px;
 }
 
 .title {

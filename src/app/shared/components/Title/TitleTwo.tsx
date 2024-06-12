@@ -5,7 +5,6 @@ interface TitleProps {
   titleSection: string;
 }
 const TitleTwo: React.FC<TitleProps> = ({ title, titleSection }) => {
-  console.log();
   return (
     <>
       <h3 className={style.title_section}>{titleSection}</h3>

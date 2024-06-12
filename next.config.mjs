@@ -9,7 +9,7 @@ const nextConfig = {
   distDir: 'dist',
   assetPrefix: baseUrl,
   basePath: baseUrl,
-  output: 'export',
+  // output: 'export',
   images: {
     unoptimized: true,
   },
