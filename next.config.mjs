@@ -5,8 +5,6 @@ const withNextIntl = createNextIntlPlugin();
 
 const nextConfig = {
   distDir: 'dist',
-
-  // output: 'export',
   images: {
     unoptimized: true,
   },
