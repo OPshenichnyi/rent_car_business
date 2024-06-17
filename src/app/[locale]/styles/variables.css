@@ -1,9 +1,10 @@
 :root {
   --bg-color-white: #fff;
-  --bg-color-section: background: linear-gradient(270deg, #fafafa 0%, #fafafa 100%);
-  --bg-color-blue: #3083FF;
-  --text-color-black: #1D1E21;
-  --text-color-grey: #ACAEB4;
-  --logo-color:  #1d1e21;
+  --bg-color-section: background:
+    linear-gradient(270deg, #fafafa 0%, #fafafa 100%);
+  --bg-color-blue: #3083ff;
+  --text-color-black: #1d1e21;
+  --text-color-grey: #acaeb4;
+  --logo-color: #1d1e21;
   --bg-grey-section: linear-gradient(315deg, #f1f3fc 0%, #f7f7fb 100%);
 }

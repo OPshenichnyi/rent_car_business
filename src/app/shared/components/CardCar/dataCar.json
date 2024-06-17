@@ -1,5 +1,5 @@
 [
-    {
+  {
     "id": "1",
     "modelCar": "Red Mazda 6 - Elite Estate",
     "url": "/img/Mazda_red.png",
@@ -10,8 +10,8 @@
     "typeCondition": "Air Conditioning",
     "quantityDoor": 2,
     "price": 1.888
-},
-{
+  },
+  {
     "id": "2",
     "modelCar": "Black Mazda 6 - Elite Estate",
     "url": "/img/Black_mazda.png",
@@ -22,8 +22,8 @@
     "typeCondition": "Climat Conditioning",
     "quantityDoor": 2,
     "price": 2.222
-},
-{
+  },
+  {
     "id": "3",
     "modelCar": "Blue Mazda 6 - Elite Estate",
     "url": "/img/small_blue_mazda.png",
@@ -34,8 +34,8 @@
     "typeCondition": "Air Conditioning",
     "quantityDoor": 5,
     "price": 1.655
-},
-{
+  },
+  {
     "id": "4",
     "modelCar": "Grey Mazda 6 - Elite Estate",
     "url": "/img/Grey_mazda.png",
@@ -46,5 +46,5 @@
     "typeCondition": "Air Conditioning",
     "quantityDoor": 5,
     "price": 1.721
-}
+  }
 ]

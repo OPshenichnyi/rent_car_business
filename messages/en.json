@@ -14,7 +14,7 @@
     "Title_section": "Most popular cars rental deals",
     "Show_all": "Show All Vehicles"
   },
-  "why_choose":{
+  "why_choose": {
     "descript_section": "WHY CHOOSE US",
     "Title_section": "We offer the best platform for managing your car business ",
     "price": "Best price guaranteed",
@@ -25,6 +25,5 @@
     "Owners_descript": "Specialized dashboard for vehicle owners provides the ability to control all aspects of the business",
     "Access_24": "Access 24/7",
     "Access_descript": "Regardless of the time of day, you can always access our platform and utilize all its features."
-    
   }
 }
