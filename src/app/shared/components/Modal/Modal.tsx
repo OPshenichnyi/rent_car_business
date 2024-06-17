@@ -11,8 +11,8 @@ interface ModalContextType {
 const Modal: React.FC<ModalContextType> = ({ onClose, children }) => {
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
-      const valueBtn = e.key.toLowerCase();
-      if (valueBtn === 'escape') {
+      const valueBtn = e.key;
+      if (valueBtn === 'Escape') {
         onClose();
       }
     };
