@@ -7,7 +7,6 @@ import Password from '../../icons/Password';
 import Link from 'next/link';
 import Facebook from '../../icons/Facebook';
 import Google from '../../icons/Google';
-import Svg from './next.svg';
 
 interface Values {
   password: string;
@@ -39,7 +38,6 @@ const LoginForm = () => {
 
   return (
     <div className={styles.container_form}>
-      <Svg />
       <div className={styles.wrap_title_form}>
         <h2 className={styles.title_login}>Welcome</h2>
         <span className={styles.title_descript}>
