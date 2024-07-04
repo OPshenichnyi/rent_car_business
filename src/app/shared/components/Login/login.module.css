@@ -6,3 +6,27 @@
   color: var(--bg-color-blue);
   cursor: pointer;
 }
+
+.wrap_link {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap_link :hover {
+  color: #1d1e21;
+}
+
+.logout {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+  stroke: #3083ff;
+  cursor: pointer;
+}
+
+.logout :hover {
+  stroke: #ff3333;
+}

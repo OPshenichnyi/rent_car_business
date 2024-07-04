@@ -14,6 +14,7 @@ export default function Home() {
   const t = useTranslations('Index');
   const m = useTranslations('Popular');
   const why = useTranslations('why_choose');
+
   return (
     <main className={styles.main}>
       <div className={styles.root}>

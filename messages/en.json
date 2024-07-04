@@ -25,5 +25,11 @@
     "Owners_descript": "Specialized dashboard for vehicle owners provides the ability to control all aspects of the business",
     "Access_24": "Access 24/7",
     "Access_descript": "Regardless of the time of day, you can always access our platform and utilize all its features."
+  },
+  "modal_menu":{
+    "title": "Welcome",
+    "description": "Enter your details to proceed further",
+    "recovery": "Forgot password?",
+    "submit": "Submit"
   }
 }

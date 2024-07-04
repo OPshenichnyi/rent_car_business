@@ -1,0 +1,28 @@
+.contain_sing_other {
+  width: 260px;
+  margin: auto;
+  text-align: center;
+}
+
+.title_sing_other {
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.contain_icon {
+  display: flex;
+  justify-content: center;
+  gap: 28px;
+  padding-top: 24px;
+  padding-bottom: 38px;
+}
+
+.icon {
+  cursor: pointer;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.4);
+}

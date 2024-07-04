@@ -1,0 +1,7 @@
+.wrap_errors {
+  position: absolute;
+  bottom: -24px;
+  color: #ff3333;
+  transform: translateY(20%);
+  transition: transform 0.5s ease-in-out;
+}

@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import style from './menu_nav.module.css';
 import Link from 'next/link';
+import React from 'react';
 
 const Menu_nav = () => {
   const t = useTranslations('Menu-nav');
