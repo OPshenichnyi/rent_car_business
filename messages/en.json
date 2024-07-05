@@ -30,6 +30,9 @@
     "title": "Welcome",
     "description": "Enter your details to proceed further",
     "recovery": "Forgot password?",
-    "submit": "Submit"
+    "submit": "Submit",
+    "sign_up": "or sign it with",
+    "link_signIn": "Already have an account?",
+    "link_signUp": "Don’t have an account?"
   }
 }

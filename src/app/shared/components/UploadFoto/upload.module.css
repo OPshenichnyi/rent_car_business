@@ -1,0 +1,30 @@
+.selfi {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.wrap_selfi {
+  display: block;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.wrap_foto_license {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 176px;
+  border: 1px dashed black;
+  background: #ffffff;
+
+  border-radius: 25px;
+}
+
+.upload_wrap {
+  display: grid;
+  grid-template-rows: auto auto; /* Дві рядки */
+  justify-items: center;
+}

@@ -1,9 +1,7 @@
 .root {
   display: flex;
   gap: 31px;
-  width: 1250px;
   padding: 78px 0 53px 140px;
-  margin: auto;
   background: var(--bg-grey-section);
   position: relative;
 }

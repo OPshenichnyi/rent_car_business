@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import styles from './page.module.css';
-import global from './global.module.css';
 import Filter from '../shared/components/Filter/Filter';
 import CardCar from '../shared/components/CardCar/CardCar';
 import dataCar from '../shared/components/CardCar/dataCar.json';
@@ -39,7 +38,7 @@ export default function Home() {
           <Filter />
         </div>
       </div>
-      <section className={(global.section, styles.popular_section)}>
+      <section className={styles.popular_section}>
         <div className={styles.wrap_title_section}>
           <TitleTwo
             titleSection={m('descript_section')}

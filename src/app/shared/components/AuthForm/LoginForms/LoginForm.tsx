@@ -221,8 +221,16 @@ const LoginForm: React.FC<CloseModalProps> = ({ closeModal }) => {
               <GoogleFacebook />
               <span className={styles.title_sing_other}>
                 {!isLogin
-                  ? 'Already have an account?'
-                  : 'Don’t have an account?'}
+                  ? `${
+                      locale === 'en'
+                        ? en.modal_menu.link_signIn
+                        : ua.modal_menu.link_signIn
+                    }`
+                  : `${
+                      locale === 'en'
+                        ? en.modal_menu.link_signUp
+                        : ua.modal_menu.link_signUp
+                    }`}
                 {isLogin ? (
                   <button
                     type="button"

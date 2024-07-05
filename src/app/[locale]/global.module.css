@@ -1,4 +1,6 @@
-.section {
+.wrap_layout {
   width: 1250px;
   margin: auto;
+  background: var(--bg-grey-section);
+  position: relative;
 }

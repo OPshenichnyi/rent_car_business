@@ -1,0 +1,20 @@
+.sidebar {
+  width: 240px;
+  height: 800px;
+  padding: 70px 0 40px 62px;
+}
+
+.list_sidebar :not(:last-child) {
+  margin-bottom: 31px;
+}
+
+.link_sidebar {
+  padding: 8px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.link_sidebar:hover {
+  color: var(--bg-color-blue);
+}
