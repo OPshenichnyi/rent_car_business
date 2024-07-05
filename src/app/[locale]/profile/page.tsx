@@ -6,7 +6,7 @@ export interface LayoutProps {
   children: React.ReactNode;
 }
 
-const Profile = ({ children }: LayoutProps) => {
+const Profile: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div>
       <span>Dashboard</span>
