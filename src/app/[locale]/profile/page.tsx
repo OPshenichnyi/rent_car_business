@@ -1,9 +1,9 @@
 import React from 'react';
 //  getServerSession is a function that returns the session object if the user is authenticated, otherwise it returns null.
 
-interface LayoutProps {
+type LayoutProps = {
   children: React.ReactNode;
-}
+};
 
 const Page: React.FC<LayoutProps> = ({ children }) => {
   return (
