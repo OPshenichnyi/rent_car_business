@@ -9,7 +9,7 @@ export interface LayoutProps {
   children: React.ReactNode;
 }
 
-const Layout = async ({ children }: LayoutProps) => {
+const Layout: React.FC<LayoutProps> = async ({ children }) => {
   const session = await getServerSession(authConfig);
   if (!session) {
     redirect('/');
