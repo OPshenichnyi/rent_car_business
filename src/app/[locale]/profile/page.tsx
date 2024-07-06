@@ -5,7 +5,7 @@ type LayoutProps = {
   children: React.ReactNode;
 };
 
-const Page: React.FC<LayoutProps> = ({ children }) => {
+const page: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div>
       <span>Daschboard</span>
@@ -14,7 +14,7 @@ const Page: React.FC<LayoutProps> = ({ children }) => {
   );
 };
 
-export default Page;
+export default page;
 
 // const Profile: React.FC<LayoutProps> = ({ children }) => {
 //   return (
