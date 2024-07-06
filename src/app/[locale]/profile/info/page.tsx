@@ -1,6 +1,5 @@
 import React, { ReactElement } from 'react';
 import styles from './page.module.css';
-import Upload from '@/app/shared/components/icons/Upload';
 import UploadFoto from '@/app/shared/components/UploadFoto/UploadFoto';
 
 const Info = (): ReactElement => {

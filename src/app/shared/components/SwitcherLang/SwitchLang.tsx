@@ -8,7 +8,7 @@ import EnFlags from '../icons/EnFlags';
 // SwitchLang component for changing the website's language
 const SwitchLang = () => {
   // useTransition for optimizing state updates, reducing impact on performance
-  const [isPending, startTransition] = useTransition();
+  const [, startTransition] = useTransition();
 
   // useRouter hook for handling routing in Next.js
   const router = useRouter();

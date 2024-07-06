@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import styles from './whyList.module.css';
 import Folder from '../icons/BestPrice';
 import Experience from '../icons/Experience';
