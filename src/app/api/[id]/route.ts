@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server';
 import { headers, cookies } from 'next/headers';
-import { redirect } from 'next/navigation';
 
 // Отримуємо параметри URL
 export async function DELETE(

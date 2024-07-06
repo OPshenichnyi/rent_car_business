@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 import styles from './page.module.css';
-import UploadFoto from '@/app/shared/components/UploadFoto/UploadFoto';
+import UploadFoto from '../../../shared/components/UploadFoto/UploadFoto';
 
 const Info = (): ReactElement => {
   return (

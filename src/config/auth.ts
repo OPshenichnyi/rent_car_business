@@ -18,7 +18,7 @@ export const authConfig: AuthOptions = {
         email: { label: 'Email', type: 'email', required: true },
         password: { label: 'Password', type: 'password', required: true },
       },
-      async authorize(credentials, req) {
+      async authorize(credentials) {
         await connectMongoDB();
         if (!credentials?.email || !credentials.password) return null;
         const user = await Users.findOne({ email: credentials.email });
@@ -34,7 +34,7 @@ export const authConfig: AuthOptions = {
           return null;
         }
 
-        const { password, ...userWithoutPassword } = user.toObject();
+        const { ...userWithoutPassword } = user.toObject();
 
         return userWithoutPassword as User;
       },
