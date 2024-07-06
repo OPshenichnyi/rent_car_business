@@ -3,9 +3,9 @@ import User from '../../../../Schema/user';
 
 import bcrypt from 'bcryptjs';
 
-import { NextApiRequest, NextApiResponse } from 'next';
+// import { NextRequest, NextResponse } from 'next/server';
 
-export async function POST(req: NextApiRequest, res: NextApiResponse) {
+export async function POST(req: any, res: any) {
   const { email, password } = await req.body;
   await connectMongoDB();
   const user = await User.findOne({ email });
