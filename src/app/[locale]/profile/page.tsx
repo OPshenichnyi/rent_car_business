@@ -1,4 +1,4 @@
-import React, { FC, ReactNode } from 'react';
+import React from 'react';
 
 //  getServerSession is a function that returns the session object if the user is authenticated, otherwise it returns null.
 
