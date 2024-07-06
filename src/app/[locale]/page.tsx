@@ -8,6 +8,7 @@ import LineDownWords from '../shared/components/icons/LineDownWords';
 import { useTranslations } from 'next-intl';
 import TitleTwo from '../shared/components/Title/TitleTwo';
 import WhyList from '../shared/components/WhyList/WhyList';
+import React from 'react';
 
 export default function Home() {
   const t = useTranslations('Index');
